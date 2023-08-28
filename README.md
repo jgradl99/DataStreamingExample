@@ -1,7 +1,7 @@
 # DataStreamingExample
 
 This project is a simple example to show the power of Apache Spark on a small scale using Java.
-The goal is to continously run SQL requests on an incoming datastream. In this example, the incoming stream is described with a single csv file consisting of 1000 lines filled with 'id', 'first_name' and 'last_name'. But it does support more and larger files as long as the file follows the set scheme.
+The goal is to continuously run SQL requests on an incoming datastream. In this example, the incoming stream is described with a single csv file consisting of 1000 lines filled with 'id', 'first_name' and 'last_name'. But it does support more and larger files as long as the file follows the set scheme.
 
 # Install
 
@@ -23,3 +23,6 @@ An example could be 'select * from viewData where id < 7'. Running this will giv
 |  4|     Moyna|  Goddard|
 |  5|     Dotty|Pillsbury|
 |  6|       Zia|   Yorick|
+
+Furthermore you can now add more csv files with a fitting scheme while running the programm or include different sql request
+on the incoming datastream.
